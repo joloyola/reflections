@@ -2,3 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 ANS: When you initiatlize a repository by using the command, "git init"; This will create a hidden file, ".git". You need to do if you're going make changes to a file and want to keep a good version-control system of your files. 
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+ANS: Staging area allows you to temporary store data that has been changed. You then are able to commit and save the changes to the working directory. The repository is actually keeping track of all the changes via a log file called, ".git"
+
