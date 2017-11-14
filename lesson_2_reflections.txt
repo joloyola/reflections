@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+ANS: When you initiatlize a repository by using the command, "git init"; This will create a hidden file, ".git". You need to do if you're going make changes to a file and want to keep a good version-control system of your files. 
+
