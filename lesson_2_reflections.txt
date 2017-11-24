@@ -6,3 +6,22 @@ How is the staging area different from the working directory and the repository?
 
 ANS: Staging area allows you to temporary store data that has been changed. You then are able to commit and save the changes to the working directory. The repository is actually keeping track of all the changes via a log file called, ".git"
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+ANS: You can use the command, "git status". This will display all files staged and unstaged. And you can use the command, "git diff --staged" to show the changes from teh staging area and the last commit in your repository. :)
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+ANS: They're help if you're writing an piece of code that won't necessary be apart of the code today. You can experiment and without risk of breaking the entire code set. Branches help to name your attempts. 
+
+How do the diagrams help you visualize the branch structure?
+
+ANS: They help you visual branches and where they stand with the master branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+ANS: Merging two branches together allows to integrate experiment code changes to the main master line. Why? Because side branches are break offs and then you can merge them to complete the code base.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+ANS: Pro is that it does its best to remove manual edits when mergeing two files. The Neg is that it doesn't do it everytime. Sometimes you'll need to look at the code base and make a decision on which codes get the boot and which stays. 
