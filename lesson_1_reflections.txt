@@ -32,7 +32,7 @@ How can you use the commands git log and git diff to view the history of files?
 How might using version control make you more confident to make changes that
 could break something?
 
-    Because each modification is document and you don't have to waste time checking the entire code. Rather, you use git diff and compare the Commit IDs and see exactly which lines of code changed when the bug was introduced. 
+    Because each modification is documented and you don't have to waste time checking the entire code. Rather, you use git diff and compare the Commit IDs and see exactly which lines of code changed when the bug was introduced. 
     
 Now that you have your workspace set up, what do you want to try using Git for?
 
